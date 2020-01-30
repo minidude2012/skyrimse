@@ -1855,6 +1855,7 @@ plugins:
     tag: [ Graphics ]
   - name: 'SMIM-SE-Merged-All.esp'
     after:
+      - 'AK - Placeable Statics SE.esp'
       - 'Blowing in the Wind SSE.esp'
       - 'Destructible Skyrim.esp'
     inc:
@@ -2304,6 +2305,7 @@ plugins:
   - name: 'ELFX - Exteriors.esp'
     group: *veryEarlyGroup
     after:
+      - 'AK - Placeable Statics SE.esp'
       - 'Blowing in the Wind SSE.esp'
       - 'SMIM-SE-Merged-All.esp'
       - 'Prometheus_No_snow_Under_the_roof.esp'
@@ -5191,7 +5193,9 @@ plugins:
     url: [ 'https://www.nexusmods.com/skyrimspecialedition/mods/5124' ]
   - name: 'Blowing in the Wind SSE.esp'
     group: *veryEarlyGroup
-    after: [ 'Destructible Skyrim.esp' ]
+    after:
+      - 'AK - Placeable Statics SE.esp'
+      - 'Destructible Skyrim.esp'
     clean:
       # version: 2.04
       - crc: 0x8EF0F5D1
@@ -5254,6 +5258,7 @@ plugins:
   - name: 'Destructible Skyrim.esp'
     url: [ 'https://www.nexusmods.com/skyrimspecialedition/mods/28291/' ]
     group: *veryEarlyGroup
+    after: [ 'AK - Placeable Statics SE.esp' ]
     dirty:
       # version: 0.4
       - <<: *quickClean
@@ -5598,6 +5603,7 @@ plugins:
     group: *veryEarlyGroup
     after:
       # Group afters to avoid sorting errors.
+      - 'AK - Placeable Statics SE.esp'
       - 'Blowing in the Wind SSE.esp'
       - 'SMIM-SE-Merged-All.esp'
     msg:
@@ -14241,7 +14247,7 @@ plugins:
 
   - name: 'AK - Placeable Statics SE.esp'
     url: [ 'https://www.nexusmods.com/skyrimspecialedition/mods/342/' ]
-    group: *preVeryEarlyGroup
+    group: *veryEarlyGroup
 
   - name: 'AlchemistRetreat.esp'
     url: [ 'https://www.nexusmods.com/skyrimspecialedition/mods/29358/' ]
