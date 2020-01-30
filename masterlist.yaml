@@ -9339,7 +9339,7 @@ plugins:
       - link: 'https://www.nexusmods.com/skyrimspecialedition/mods/18177'
         name: 'QUARK - Qwinn''s Ultimate Amulet Restoration Kit'
     # Must sort before WACCF Armor and Clothing Extension
-    group: *preFixesGroup
+    group: *fixesGroup
 
   - name: 'WACCF_Armor and Clothing Extension.esp'
     url: [ 'https://www.nexusmods.com/skyrimspecialedition/mods/19002/' ]
