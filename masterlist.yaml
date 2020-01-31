@@ -4411,7 +4411,7 @@ plugins:
 
   - name: 'Ambriel.esp'
     url: [ 'https://www.nexusmods.com/skyrimspecialedition/mods/969/' ]
-    group: *addonsGroup
+    group: *underridesGroup
     dirty:
       # version: AQSE1.06
       - <<: *reqManualFix
