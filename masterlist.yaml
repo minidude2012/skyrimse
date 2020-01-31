@@ -980,7 +980,6 @@ groups:
     after: [ *dlcGroup ]
 
   - name: &preVeryEarlyGroup Pre Very Early (Patches/Add-ons)
-    after: [ *ccGroup ]
 
   - name: &veryEarlyGroup Very Early Loaders
     after: [ *preVeryEarlyGroup ]
@@ -1015,12 +1014,10 @@ groups:
       - *fixesGroup
 
   - name: &underridesGroup Underrides
-    after: [ *veryEarlyGroup ]
+    after: [ *ccGroup ]
 
   - name: default
-    after:
-      - *earlyLoadersGroup
-      - *underridesGroup
+    after: [ *underridesGroup ]
 
   - name: &racesGroup Races & Classes
     description: 'A group for modules that modify character Races & Classes.'
