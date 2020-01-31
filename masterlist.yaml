@@ -1024,9 +1024,7 @@ groups:
 
   - name: &racesGroup Races & Classes
     description: 'A group for modules that modify character Races & Classes.'
-    after:
-      - default
-      - *landscapeGroup
+    after: [ default ]
 
   - name: &economyGroup Economy
     description: 'A group for mods that alter the Economy of the game.'
