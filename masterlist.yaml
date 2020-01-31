@@ -7231,7 +7231,7 @@ plugins:
   - name: 'Weapons Armor Clothing & Clutter Fixes.esp'
     url: [ 'https://www.nexusmods.com/skyrimspecialedition/mods/18994/' ]
     inc: [ 'Race Scale Remover.esp' ]
-    group: *fixesGroup
+    group: *underridesGroup
     after:
       - 'Audio Overhaul Skyrim.esp'
       - name: 'Guard Dialogue Overhaul.esp'
@@ -9347,11 +9347,11 @@ plugins:
       - link: 'https://www.nexusmods.com/skyrimspecialedition/mods/18177'
         name: 'QUARK - Qwinn''s Ultimate Amulet Restoration Kit'
     # Must sort before WACCF Armor and Clothing Extension
-    group: *fixesGroup
+    group: *underridesGroup
 
   - name: 'WACCF_Armor and Clothing Extension.esp'
     url: [ 'https://www.nexusmods.com/skyrimspecialedition/mods/19002/' ]
-    group: *fixesGroup
+    group: *underridesGroup
     after:
       - 'AmuletsShowOnEverything.esp'
       - 'AmuletsShowOnClothes.esp'
