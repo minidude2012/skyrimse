@@ -5172,7 +5172,7 @@ plugins:
 
   - name: 'BentPines.esp'
     url: [ 'https://www.nexusmods.com/skyrimspecialedition/mods/8306' ]
-    group: *floraGroup
+    group: *underridesGroup
     clean:
       - crc: 0x3C7AC8C0
         util: 'SSEEdit v4.0.3'
@@ -5213,7 +5213,7 @@ plugins:
 
   - name: 'Cathedral Concept - Lightweight Grass Overhaul.esp'
     url: [ 'https://www.nexusmods.com/skyrimspecialedition/mods/21954/' ]
-    group: *floraGroup
+    group: *underridesGroup
     after:
       - 'Dolomite Weathers.esp'
       - 'MajesticMountains.esp'
@@ -5247,7 +5247,7 @@ plugins:
 
   - name: 'Dark_Forests.esp'
     url: [ 'https://www.nexusmods.com/skyrimspecialedition/mods/21934/' ]
-    group: *floraGroup
+    group: *underridesGroup
 
   - name: 'DepthsOfSkyrim.esp'
     url: [ 'https://www.nexusmods.com/skyrimspecialedition/mods/26913/' ]
@@ -5299,7 +5299,7 @@ plugins:
       - crc: 0x9B2A145A
         util: 'SSEEdit v4.0.2f'
   - name: 'Enhanced Landscapes - Barren Marsh.esp'
-    group: *floraGroup
+    group: *underridesGroup
     msg:
       - <<: *sortMasters
         condition: 'checksum("Enhanced Landscapes - Barren Marsh.esp", 7F364F31)'
@@ -5308,14 +5308,14 @@ plugins:
       - crc: 0xF79F7E8C
         util: 'SSEEdit v4.0.2f'
   - name: 'Enhanced Landscapes - Dead Marsh.esp'
-    group: *floraGroup
+    group: *underridesGroup
     after: [ 'Enhanced Landscapes - Barren Marsh.esp' ]
     clean:
       # version: 1.65
       - crc: 0xC7FE363A
         util: 'SSEEdit v4.0.2f'
   - name: 'Enhanced Landscapes - Grass.esp'
-    group: *floraGroup
+    group: *underridesGroup
     after:
       - 'Enhanced Landscapes.esp'
       - 'MajesticMountains.esp'
@@ -5327,7 +5327,7 @@ plugins:
       - crc: 0xC0784AD8
         util: 'SSEEdit v4.0.2f'
   - name: 'Enhanced Landscapes - Green Fields.esp'
-    group: *floraGroup
+    group: *underridesGroup
     after:
       - 'Enhanced Landscapes.esp'
       - 'Enhanced Landscapes - Grass.esp'
@@ -5345,23 +5345,23 @@ plugins:
 
   - name: 'Enhanced Landscapes Oaks Standalone.esp'
     url: [ 'https://www.nexusmods.com/skyrim/mods/73161' ]
-    group: *floraGroup
+    group: *underridesGroup
     inc: [ 'Enhanced Landscapes.esp' ]
   - name: 'Enhanced Landscapes Standalone Marsh Pines.esp'
     url: [ 'https://www.nexusmods.com/skyrim/mods/73161' ]
-    group: *floraGroup
+    group: *underridesGroup
     inc: [ 'Enhanced Landscapes.esp' ]
 
   - name: '(Enhanced Vanilla Trees SSE|SRG Enhanced Trees Activator)\.esp'
     url:  [ 'https://www.nexusmods.com/skyrimspecialedition/mods/11008' ]
-    group: *floraGroup
+    group: *underridesGroup
     inc:
       - 'SimplyBiggerTreesSE.esp'
       - 'Skyrim Flora Overhaul.esp'
 
   - name: 'fallentreebridgesSSE.esp'
     url: [ 'https://www.nexusmods.com/skyrimspecialedition/mods/8767' ]
-    group: *floraGroup
+    group: *underridesGroup
 
   - name: 'Gildergreen Regrown.esp'
     url: [ 'https://www.nexusmods.com/skyrimspecialedition/mods/348/' ]
@@ -5377,7 +5377,7 @@ plugins:
 
   - name: 'HearthfireGrassFix.esp'
     url: [ 'https://www.nexusmods.com/skyrimspecialedition/mods/13461/' ]
-    group: *floraGroup
+    group: *underridesGroup
     after:
       - 'Enhanced Landscapes.esp'
       - 'Landscape Fixes For Grass Mods.esp'
@@ -5386,7 +5386,7 @@ plugins:
 
   - name: 'HearthFires Roads.esp'
     url: [ 'https://www.nexusmods.com/skyrimspecialedition/mods/786/' ]
-    group: *floraGroup
+    group: *underridesGroup
     after:
       - 'Enhanced Landscapes.esp'
       - 'Landscape Fixes For Grass Mods.esp'
@@ -5406,7 +5406,7 @@ plugins:
 
   - name: 'Immersive Farms.esp'
     url: [ 'https://www.nexusmods.com/skyrimspecialedition/mods/19026' ]
-    group: *floraGroup
+    group: *underridesGroup
     dirty:
       # version: 1.1
       - <<: *quickClean
@@ -5567,7 +5567,7 @@ plugins:
       - crc: 0x1AE8D648
         util: 'SSEEdit v4.0.3'
   - name: 'MajesticMountains_Moss.esp'
-    group: *floraGroup
+    group: *underridesGroup
     inc: [ 'Moss Rocks.esp' ]
     tag: [ Graphics ]
     clean:
@@ -5596,7 +5596,7 @@ plugins:
 
   - name: 'NorthernGrass.esp'
     url: [ 'https://www.nexusmods.com/skyrimspecialedition/mods/25459/' ]
-    group: *floraGroup
+    group: *underridesGroup
 
   - name: 'Prometheus_No_snow_Under_the_roof.esp'
     url: [ 'https://www.nexusmods.com/skyrimspecialedition/mods/518/' ]
@@ -5656,7 +5656,7 @@ plugins:
 
   - name: 'Realistic Treeline.esp'
     url: [ 'https://www.nexusmods.com/skyrimspecialedition/mods/18046/' ]
-    group: *floraGroup
+    group: *underridesGroup
     after:
       - 'Enhanced Landscapes.esp'
       - 'S3DTrees NextGenerationForests.esp'
@@ -5676,7 +5676,7 @@ plugins:
 
   - name: 'S3DTrees NextGenerationForests.esp'
     url: [ 'https://www.nexusmods.com/skyrimspecialedition/mods/12371/' ]
-    group: *floraGroup
+    group: *underridesGroup
     after:
       - 'Bent Pines.esp'
       - 'fallentreebridgesSSE.esp'
@@ -5698,7 +5698,7 @@ plugins:
 
   - name: 'S3DLandscapes NextGenerationForests.esp'
     url: [ 'https://www.nexusmods.com/skyrimspecialedition/mods/18247/' ]
-    group: *floraGroup
+    group: *underridesGroup
     inc:
       - 'Enhanced Landscapes.esp'
       - 'waterplants.esp'
@@ -5712,7 +5712,7 @@ plugins:
 
   - name: 'SimplyBiggerTreesSE.esp'
     url: [ 'https://www.nexusmods.com/skyrimspecialedition/mods/5281/' ]
-    group: *floraGroup
+    group: *underridesGroup
     clean:
       # version: 1.0SE
       - crc: 0xADC2F6AF
@@ -5720,7 +5720,7 @@ plugins:
 
   - name: 'Skyrim Flora Overhaul.esp'
     url: [ 'https://www.nexusmods.com/skyrimspecialedition/mods/2154/' ]
-    group: *floraGroup
+    group: *underridesGroup
     after: [ 'SimplyBiggerTreesSE.esp' ]
 
   - name: 'SkyrimImprovedPuddles-DG-HF-DB.esp'
@@ -5729,12 +5729,12 @@ plugins:
 
   - name: 'SkyrimIsWindy.esp'
     url: [ 'https://www.nexusmods.com/skyrimspecialedition/mods/5836/' ]
-    group: *floraGroup
+    group: *underridesGroup
     msg:
       - <<: *patch3rdParty_KPH_CACO
         condition: 'active("Complete Alchemy & Cooking Overhaul.esp") and not active("SkyrimIsWindy_CACO_Patch.esp")'
   - name: 'SkyrimIsWindy( - EVT patch|-SimplyBiggerTreesSE-Patch)\.esp'
-    group: *floraGroup
+    group: *underridesGroup
     req: [ 'SkyrimIsWindy.esp' ]
   - name: 'SkyrimIsWindy - EVT patch.esp'
     req: [ 'Enhanced Vanilla Trees SSE.esp' ]
@@ -5743,7 +5743,7 @@ plugins:
 
   - name: 'SmoothShores.esp'
     url: [ 'https://www.nexusmods.com/skyrimspecialedition/mods/10624/' ]
-    group: *floraGroup
+    group: *underridesGroup
     dirty:
       - <<: *quickClean
         crc: 0x3CC7601F
@@ -5752,7 +5752,7 @@ plugins:
 
   - name: 'Tamriel Reloaded HD SE.esp'
     url: [ 'https://www.nexusmods.com/skyrimspecialedition/mods/6372/' ]
-    group: *floraGroup
+    group: *underridesGroup
     dirty:
       # version: 1.01
       - <<: *quickClean
@@ -5767,7 +5767,7 @@ plugins:
 
   - name: 'Trees in Cities.esp'
     url: [ 'https://www.nexusmods.com/skyrimspecialedition/mods/1941/' ]
-    group: *floraGroup
+    group: *underridesGroup
     msg:
       - <<: *patch3rdParty_LotD
         condition: 'active("LegacyoftheDragonborn.esm") and not active("DBM_TreesinCities_Patch.esp") and (version("LegacyoftheDragonborn.esm", "5.0.24", >=) or (not checksum("LegacyoftheDragonborn.esm", 31563183) and not checksum("LegacyoftheDragonborn.esm", 6736FB94) and not checksum("LegacyoftheDragonborn.esm", CB82480D)))'
@@ -5842,7 +5842,7 @@ plugins:
     url:
       - link: 'https://www.nexusmods.com/skyrimspecialedition/mods/14601/'
         name: 'Verdant - Altered Forest Grass'
-    group: *floraGroup
+    group: *underridesGroup
     after:
       - 'MajesticMountains.esp'
       - 'Verdant - A Skyrim Grass Plugin SSE Version.esp'
@@ -5850,23 +5850,23 @@ plugins:
 
   - name: 'Veydosebrom( - Grasses and Groundcover)?\.esp'
     url: [ 'https://www.nexusmods.com/skyrimspecialedition/mods/26293/' ]
-    group: *floraGroup
+    group: *underridesGroup
     after:
       - 'Verdant - A Skyrim Grass Plugin SSE Version.esp'
       - 'ViscousGrass.esp'
 
   - name: 'ViscousGrass.esp'
     url: [ 'https://www.nexusmods.com/skyrimspecialedition/mods/13995/' ]
-    group: *floraGroup
+    group: *underridesGroup
     inc: [ 'Verdant - A Skyrim Grass Plugin SSE Version.esp' ]
 
   - name: 'Voluptuous.esp'
     url: [ 'https://www.nexusmods.com/skyrimspecialedition/mods/22437/' ]
-    group: *floraGroup
+    group: *underridesGroup
 
   - name: 'waterplants.esp'
     url: [ 'https://www.nexusmods.com/skyrimspecialedition/mods/6092/' ]
-    group: *floraGroup
+    group: *underridesGroup
 
   - name: 'WGT.esp'
     url:
@@ -5881,7 +5881,7 @@ plugins:
 
   - name: 'Whiterun Forest Borealis.esp'
     url: [ 'https://www.nexusmods.com/skyrimspecialedition/mods/11343/' ]
-    group: *floraGroup
+    group: *underridesGroup
 
   - name: 'Whiterun Landscape Fix For Grass Mods.esp'
     url: [ 'https://www.nexusmods.com/skyrimspecialedition/mods/16227/' ]
@@ -5890,7 +5890,7 @@ plugins:
 
   - name: 'Whiterun Trees Overhaul.esp'
     url: [ 'https://www.nexusmods.com/skyrimspecialedition/mods/16230/' ]
-    group: *floraGroup
+    group: *underridesGroup
 
   - name: 'WhiterunHoldForest.esp'
     url: [ 'https://www.nexusmods.com/skyrimspecialedition/mods/3212/' ]
