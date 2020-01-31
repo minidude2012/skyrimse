@@ -5268,7 +5268,7 @@ plugins:
 
   - name: 'Enhanced Landscapes.esp'
     url: [ 'https://www.nexusmods.com/skyrimspecialedition/mods/18162/' ]
-    group: *landscapeGroup
+    group: *underridesGroup
     after:
       - 'Tamriel Reloaded HD SE.esp'
       - 'ViscousGrass.esp'
@@ -5822,7 +5822,7 @@ plugins:
     url:
       - 'https://www.nexusmods.com/skyrimspecialedition/mods/2296/'
       - 'https://www.nexusmods.com/skyrimspecialedition/mods/9005/'
-    group: *landscapeGroup
+    group: *underridesGroup
     inc:
       - name: 'Open Cities Skyrim.esp'
         condition: 'checksum("Verdant - A Skyrim Grass Plugin SSE Version.esp", 9AB5147C)'
@@ -5885,7 +5885,7 @@ plugins:
 
   - name: 'Whiterun Landscape Fix For Grass Mods.esp'
     url: [ 'https://www.nexusmods.com/skyrimspecialedition/mods/16227/' ]
-    group: *landscapeGroup
+    group: *underridesGroup
     after: [ 'Tamriel Reloaded HD SE.esp' ]
 
   - name: 'Whiterun Trees Overhaul.esp'
